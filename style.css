@@ -1,0 +1,576 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Nabvbar */
+.navbar {
+  padding: 12px 0px 12px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+}
+.logo {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: center;
+  font: 700 18px/180% "Comfortaa", sans-serif;
+  position: relative;
+}
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  gap: 31px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  margin-left: auto;
+  position: relative;
+}
+.nav-menu {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font: var(--body-18-px, 500 18px/28px "Raleway", sans-serif);
+  position: relative;
+}
+.nav-menu:hover {
+  color: #f22225;
+}
+/* End of Navbar */
+
+/* Header */
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 262px;
+  position: relative;
+}
+.subtitle-header {
+  color: #f22225;
+  text-align: left;
+  font: 700 20px "Nunito", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  width: 486px;
+}
+.title-header {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font: var(--title-h-1, 700 64px/120% "Playfair Display", sans-serif);
+  position: relative;
+  width: 486px;
+}
+.download {
+  background: #f22225;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.download-text {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font: 500 18px/150% "Roboto", sans-serif;
+  position: relative;
+}
+.header-image {
+  height: 575px;
+  margin-left: auto;
+}
+/* end of Header */
+
+/* About Section */
+.about {
+  background: #f22225;
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  height: 753px;
+  position: relative;
+}
+.title-about {
+  color: #ffffff;
+  text-align: left;
+  font: var(--title-h-2, 700 48px/72px "Playfair Display", sans-serif);
+  position: relative;
+  width: 240px;
+}
+.paragraph-about {
+  color: #ffffff;
+  text-align: left;
+  font: 400 24px/150% "Nunito", sans-serif;
+  position: relative;
+  width: 1101px;
+  height: 156.9px;
+}
+.button-about {
+  background: #d7d7d7;
+  border-radius: 8px;
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.text-button-about {
+  color: var(--font-high-emphasis, #25282b);
+  text-align: left;
+  font: 500 18px/150% "Roboto", sans-serif;
+  position: relative;
+}
+.vector-about {
+  flex-shrink: 0;
+  position: absolute;
+  left: 1149.52px;
+  top: 721.13px;
+  transform: translate(-298.02px, -757.27px);
+  overflow: visible;
+}
+/* End of About */
+
+/* Portfolio */
+.portfolio {
+  padding: 0px 120px 0px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-top: 100px;
+}
+/* End of Portfolio */
+
+/* Contact */
+.frame-15 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  margin-top: 100px;
+}
+.frame-7 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-18 {
+  background: #f22225;
+  border-radius: 33px 0px 0px 33px;
+  flex-shrink: 0;
+  width: 428px;
+  height: 490px;
+  position: relative;
+}
+.frame-6 {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 71.24px;
+  top: 63px;
+}
+.contact-title {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.contact-title-text {
+  color: #ffffff;
+  text-align: left;
+  font: 600 34px "Poppins", sans-serif;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.contact-title-line {
+  border-style: solid;
+  border-color: #2c2c2c;
+  border-width: 3px 0 0 0;
+  flex-shrink: 0;
+  width: 154.2px;
+  height: 0px;
+  position: relative;
+  transform-origin: 0 0;
+  transform: rotate(-0.568deg) scale(1, 1);
+}
+.frame-3 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.phone {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+._62-8337040511 {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: relative;
+  width: 214px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-4 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.mail {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.rizalamri-410-gmail-com {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: relative;
+  width: 326px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.frame-5 {
+  display: flex;
+  flex-direction: row;
+  gap: 17px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.location-marker {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.lombok-ntb-indonesia {
+  color: #ffffff;
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: relative;
+  width: 290px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.line-8-stroke {
+  flex-shrink: 0;
+  position: absolute;
+  left: 0px;
+  top: 426px;
+  overflow: visible;
+}
+.frame-14 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-17 {
+  background: #f33437;
+  border-radius: 0px 33px 33px 0px;
+  flex-shrink: 0;
+  width: 583px;
+  height: 490px;
+  position: relative;
+}
+.frame-13 {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: absolute;
+  left: 29px;
+  top: 63px;
+}
+.frame-12 {
+  display: flex;
+  flex-direction: row;
+  gap: 38px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.frame-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.your-name {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  width: 104.3px;
+  height: 19.5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-19 {
+  width: 170.76px;
+  margin-top: 10px;
+}
+.frame-9 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.your-email {
+  color: #f8f8f8;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  width: 121px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-20 {
+  width: 266.47px;
+  margin-top: 10px;
+}
+.frame-10 {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.your-subject {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  width: 123.81px;
+  height: 19.5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-21 {
+  width: 475.09px;
+}
+.frame-11 {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.message {
+  color: #ffffff;
+  text-align: left;
+  font: 500 18px "Poppins", sans-serif;
+  position: relative;
+  width: 95.82px;
+  height: 19.5px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-22 {
+  width: 475.09px;
+  margin-top: 10px;
+}
+.group-2 {
+  flex-shrink: 0;
+  height: 38.7px;
+  position: static;
+}
+.rectangle-9 {
+  background: #fff8e5;
+  border-radius: 10px;
+  width: 145.28px;
+  height: 38.7px;
+  position: absolute;
+  left: 329.94px;
+  top: 339.3px;
+}
+.send {
+  color: #202020;
+  text-align: left;
+  font: 600 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 375.49px;
+  top: 342.52px;
+  width: 53px;
+  height: 16px;
+}
+.input-contact {
+  background: #cc4c4e;
+  border-radius: 8px;
+  padding: 13px;
+  outline: none;
+  border: none;
+  color: white;
+}
+/* End of Contact */
+
+/* Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.footer-bg {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: absolute;
+  left: calc(50% - 115px);
+  top: 84px;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.ph-instagram-logo-fill {
+  flex-shrink: 0;
+  position: relative;
+  overflow: visible;
+}
+.bi-linkedin {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  overflow: visible;
+}
+.bi-envelope-fill {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  overflow: hidden;
+}
+.group2 {
+  position: absolute;
+  left: 3px;
+  top: 8px;
+  overflow: visible;
+}
+.madelyn-torff-2021 {
+  color: var(--font-medium-emphasis, #828282);
+  text-align: left;
+  font: 400 16px "Nunito", sans-serif;
+  position: relative;
+}
+/* End of Footer */
